@@ -1,3 +1,4 @@
 import random as r
 
-random = r.uniform(0.0, 1.0)
+def random():
+    return r.uniform(0.0, 1.0)
